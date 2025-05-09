@@ -1,0 +1,7 @@
+// 1.20.1	2025-05-06T13:38:14.2844172	Registries
+78a3e6a4024e8c22381c38112f1a4c20ca93f356 data/winferno/dimension/hell.json
+25119f4f8fc72f872840519d7df4b12257c5a5f8 data/winferno/dimension_type/hell_type.json
+4849a33ca2755cc9e83c7fe57c2ab6f26ae8ec99 data/winferno/forge/biome_modifier/add_hellforged_iron_ore.json
+bd40df3ba1f921fa8a13c9cd2397d7aa5b9ba815 data/winferno/worldgen/biome/volcano_biome.json
+f83bda0610b3c494ea4d8d175405838eaca2fd8d data/winferno/worldgen/configured_feature/hellforged_iron_ore.json
+0383ebddd52c61707a34bb7f9de012efdb21a7f8 data/winferno/worldgen/placed_feature/hellforged_ore_placed.json

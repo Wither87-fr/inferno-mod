@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "winferno:hellforged_iron_block"
+    }
+  },
+  "pattern": [
+    "H H",
+    "H H"
+  ],
+  "result": {
+    "item": "winferno:hellforged_boots"
+  },
+  "show_notification": true
+}

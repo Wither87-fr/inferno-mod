@@ -1,0 +1,6 @@
+// 1.20.1	2025-05-06T21:23:57.0207626	Loot Tables
+4c7e3f64e38b6ab322ab9a94a28c91d367f6d500 data/winferno/loot_tables/blocks/hellfire_smithing_table.json
+d38f762567d97ea1fea253db5ce0588f3406ba92 data/winferno/loot_tables/blocks/hellforged_iron_block.json
+a1cdbd00073aee3b94e8774ee2e61930dd013f3f data/winferno/loot_tables/blocks/hellforged_iron_ore.json
+fa5b45862b744adce148f59eddaa8fefa8b22982 data/winferno/loot_tables/blocks/hell_gate.json
+67b433bed399249bf8520949a0a198c1e56a4c88 data/winferno/loot_tables/blocks/raw_hellforged_iron_block.json

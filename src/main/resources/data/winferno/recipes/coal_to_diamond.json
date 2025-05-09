@@ -1,0 +1,12 @@
+{
+  "type": "winferno:hellforging",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:diamond"
+  }
+}

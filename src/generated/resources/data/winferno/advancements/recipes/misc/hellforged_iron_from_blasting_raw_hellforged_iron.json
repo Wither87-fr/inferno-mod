@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_hellforged_iron": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "winferno:raw_hellforged_iron"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "winferno:hellforged_iron_from_blasting_raw_hellforged_iron"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_hellforged_iron",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "winferno:hellforged_iron_from_blasting_raw_hellforged_iron"
+    ]
+  },
+  "sends_telemetry_event": false
+}

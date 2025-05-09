@@ -1,0 +1,12 @@
+{
+  "type": "winferno:hellforging",
+  "ingredients": [
+    {
+      "item": "winferno:hellforged_iron_ore"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "winferno:hellforged_iron"
+  }
+}

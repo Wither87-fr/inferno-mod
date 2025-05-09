@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "winferno:hellforged_iron_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "HHH",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "winferno:hellforged_pickaxe"
+  },
+  "show_notification": true
+}

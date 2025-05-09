@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "winferno:block/raw_hellforged_iron_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "winferno:raw_hellforged_iron_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "winferno:raw_hellforged_iron"
+  }
+}

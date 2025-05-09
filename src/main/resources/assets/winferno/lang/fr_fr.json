@@ -1,0 +1,22 @@
+{
+  "item.winferno.hellforged_iron": "Fer infernal",
+  "item.winferno.raw_hellforged_iron": "Fer infernal brut",
+  "item.winferno.hellforged_sword": "Epée infernale",
+  "item.winferno.hellforged_pickaxe": "Pioche infernale",
+  "item.winferno.hellforged_axe": "Hache infernale",
+  "item.winferno.hellforged_shovel": "Pelle infernale",
+  "item.winferno.hellforged_hoe": "Houe infernale",
+
+  "item.winferno.hellforged_helmet": "Casque infernal",
+  "item.winferno.hellforged_chestplate": "Plastron infernal",
+  "item.winferno.hellforged_leggings": "Jambières infernales",
+  "item.winferno.hellforged_boots": "Bottes infernales",
+
+  "block.winferno.hellforged_iron_block": "Block de fer infernal",
+  "block.winferno.raw_hellforged_iron_block": "Block de fer infernal brut",
+  "block.winferno.hellforged_iron_ore": "Minerai de fer infernal",
+  "block.winferno.hellfire_smithing_table": "Table de forge infernale",
+  "block.winferno.hell_gate": "Porte des enfers",
+
+  "creativetab.winferno.wither_inferno": "Wither's Inferno"
+}

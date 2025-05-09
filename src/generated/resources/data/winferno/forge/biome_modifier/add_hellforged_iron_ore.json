@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#winferno:is_infernal",
+  "features": "winferno:hellforged_ore_placed",
+  "step": "underground_ores"
+}

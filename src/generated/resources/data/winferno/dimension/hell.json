@@ -1,0 +1,11 @@
+{
+  "type": "winferno:hell_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "winferno:volcano_biome"
+    },
+    "settings": "minecraft:overworld"
+  }
+}

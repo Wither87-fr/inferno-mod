@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 9000,
+  "experience": 0.1,
+  "group": "hellforged_iron",
+  "ingredient": {
+    "item": "winferno:raw_hellforged_iron"
+  },
+  "result": "winferno:hellforged_iron"
+}

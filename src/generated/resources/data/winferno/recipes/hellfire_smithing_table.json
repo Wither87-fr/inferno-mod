@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "winferno:hellforged_iron_block"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "LNL",
+    "NHN",
+    "LNL"
+  ],
+  "result": {
+    "item": "winferno:hellfire_smithing_table"
+  },
+  "show_notification": true
+}

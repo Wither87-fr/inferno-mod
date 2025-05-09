@@ -1,0 +1,22 @@
+{
+  "item.winferno.hellforged_iron": "Hellforged iron",
+  "item.winferno.raw_hellforged_iron": "Raw hellforged iron",
+  "item.winferno.hellforged_sword": "Hellforged sword",
+  "item.winferno.hellforged_pickaxe": "Hellforged pickaxe",
+  "item.winferno.hellforged_axe": "Hellforged axe",
+  "item.winferno.hellforged_shovel": "Hellforged shovel",
+  "item.winferno.hellforged_hoe": "Hellforged hoe",
+
+  "item.winferno.hellforged_helmet": "Hellforged helmet",
+  "item.winferno.hellforged_chestplate": "Hellforged chestplate",
+  "item.winferno.hellforged_leggings": "Hellforged leggings",
+  "item.winferno.hellforged_boots": "Hellforged boots",
+
+  "block.winferno.hellforged_iron_block": "Hellforged iron block",
+  "block.winferno.raw_hellforged_iron_block": "Raw hellforged iron block",
+  "block.winferno.hellforged_iron_ore": "Hellforged iron ore",
+  "block.winferno.hellfire_smithing_table": "Hellfire smithing table",
+  "block.winferno.hell_gate": "Hell's gate",
+
+  "creativetab.winferno.wither_inferno": "Wither's Inferno"
+}
