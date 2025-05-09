@@ -6,6 +6,6 @@
       "type": "minecraft:fixed",
       "biome": "winferno:volcano_biome"
     },
-    "settings": "minecraft:overworld"
+    "settings": "minecraft:nether"
   }
 }

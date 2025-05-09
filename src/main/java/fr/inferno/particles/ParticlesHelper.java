@@ -1,14 +1,14 @@
 package fr.inferno.particles;
 
-import net.minecraft.core.particles.ParticleType;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
+import net.minecraftforge.registries.RegistryObject;
 import team.lodestar.lodestone.registry.common.particle.LodestoneParticleRegistry;
 import team.lodestar.lodestone.systems.easing.Easing;
 import team.lodestar.lodestone.systems.particle.builder.WorldParticleBuilder;
 import team.lodestar.lodestone.systems.particle.data.GenericParticleData;
 import team.lodestar.lodestone.systems.particle.data.color.ColorParticleData;
-import team.lodestar.lodestone.systems.particle.options.WorldParticleOptions;
+import team.lodestar.lodestone.systems.particle.world.type.LodestoneWorldParticleType;
 
 import java.awt.*;
 import java.util.function.Supplier;
@@ -20,7 +20,8 @@ public class ParticlesHelper {
     public static void createFocusedEnergyRayon(Level level, Vec3 centerPos, Vec3 northPos, Vec3 southPos, Vec3 eastPos, Vec3 westPos, Color colorStart, Color colorEnd) {
 
         // Point central
-        createDefaultParticle(LodestoneParticleRegistry.STAR_PARTICLE, centerPos, colorEnd, level);
+        createDefaultParticle(LodestoneParticleRegistry.STAR_PARTICLE
+                , centerPos, colorEnd, level);
 
         // Sources sur les poles
         createDefaultParticle(LodestoneParticleRegistry.WISP_PARTICLE, westPos, colorStart, level);
@@ -80,16 +81,16 @@ public class ParticlesHelper {
 
 
 
-    private static void createDefaultParticle(Supplier<? extends ParticleType<WorldParticleOptions>> type, Vec3 pos, Color color, Level level) {
+    private static void createDefaultParticle(RegistryObject<LodestoneWorldParticleType> type, Vec3 pos, Color color, Level level) {
         createSimpleParticle(type, 0.1f, 0, 0.9f, 0, color, 5.5f, Easing.EXPO_IN_OUT, 1, true, level, pos);
     }
-    private static void createSimpleParticle(Supplier<? extends ParticleType<WorldParticleOptions>> type,
-                                              float startScaleValue, float endScaleValue,
-                                              float startTransparencyValue, float endTransparencyValue,
-                                              Color color, float colorCoefficient, Easing easing,
-                                              int lifeTime,
-                                              boolean noClip,
-                                              Level level, Vec3 pos) {
+    private static void createSimpleParticle(RegistryObject<LodestoneWorldParticleType> type,
+                                             float startScaleValue, float endScaleValue,
+                                             float startTransparencyValue, float endTransparencyValue,
+                                             Color color, float colorCoefficient, Easing easing,
+                                             int lifeTime,
+                                             boolean noClip,
+                                             Level level, Vec3 pos) {
         WorldParticleBuilder builder = WorldParticleBuilder.create(type)
                 .setScaleData(GenericParticleData.create(startScaleValue, endScaleValue).build())
                 .setTransparencyData(GenericParticleData.create(startTransparencyValue, endTransparencyValue).build())

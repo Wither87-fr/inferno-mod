@@ -40,12 +40,12 @@ public class ModDimensions {
                 16.0, // coordinateScale
                 false, // bedWorks
                 false, // respawnAnchorWorks
-                0, // minY
+                -64, // minY
                 256, // height
                 256, // logicalHeight
                 BlockTags.INFINIBURN_OVERWORLD, // infiniburn
                 BuiltinDimensionTypes.OVERWORLD_EFFECTS, // effectsLocation
-                1.0f, // ambientLight
+                0.0f, // ambientLight
                 new DimensionType.MonsterSettings(true, false, ConstantInt.of(0), 15)));
     }
 
@@ -56,7 +56,7 @@ public class ModDimensions {
 
         NoiseBasedChunkGenerator wrappedChunkGenerator = new NoiseBasedChunkGenerator(
                 new FixedBiomeSource(biomeRegistry.getOrThrow(ModBiomes.VOLCANO_BIOME)),
-                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.OVERWORLD));
+                noiseGenSettings.getOrThrow(NoiseGeneratorSettings.NETHER));
 
 
 

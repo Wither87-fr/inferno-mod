@@ -8,14 +8,11 @@ import fr.inferno.item.ModCreativeModTabs;
 import fr.inferno.item.ModItems;
 import fr.inferno.packet.ModMessages;
 import fr.inferno.recipe.ModRecipies;
-import fr.inferno.screen.HellfireSmithingTableMenu;
 import fr.inferno.screen.HellfireSmithingTableScreen;
 import fr.inferno.screen.ModMenuTypes;
 import fr.inferno.worldgen.biome.ModTerraBlender;
 import fr.inferno.worldgen.biome.surface.ModSurfaceRules;
 import net.minecraft.client.gui.screens.MenuScreens;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -61,7 +58,7 @@ public class InfernoMod
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, Commons.MOD_ID, ModSurfaceRules.makeRules());
+        SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.NETHER, Commons.MOD_ID, ModSurfaceRules.makeRules());
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
