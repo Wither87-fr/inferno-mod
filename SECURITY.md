@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Only the latest worked on version of minecraft willl receive support, as i'm solo working on the mod.
+Only the version of minecraft which i'm currently working on will receive support, as i'm solo working on the mod.
 
 | Minecraft Version | Supported          |
 | ----------------- | ------------------ |
